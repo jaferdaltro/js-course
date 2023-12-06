@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/styles/styles.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <section class="container">
+        <h2>IMC Table</h2>
+        <div class="table">
+            <h3>IMC</h3>
+            <p>Less than 18.5 </p>
+            <p>Between 18.5 - 24.9 </p>
+            <p>Between 25.0 - 29.9 </p>
+            <p>Greater than 30.0 </p>
+        </div>
+        <div class="table">
+            <h3>Result</h3>
+            <p>Underweight </p>
+            <p>Normal</p>
+            <p>Overweight</p>
+            <p>Obesity</p>
+        </div>
+
+        <h1>IMC Calculator</h1>
+        <form id="form">
+            <label for="weight">Weight</label>
+            <input type="text" id="weight">
+
+            <label for="name">Height</label>
+            <input type="text" id="height">
+
+            <button type="submit">Submit</button>
+        </form>
+
+        <div id="result"></div>
+    </section>
+
+    <script src="./assets/script/main.js"></script>
+</body>
+
+</html>

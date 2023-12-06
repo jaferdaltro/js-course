@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,700;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,700;1,500&display=swap');
+:root {
+  --primary-color: rgb(111, 139, 152);
+  --primary-color-dark: rgb(85, 164, 200);
+}
+* {
+  box-sizing: border-box;
+  outline: 0;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+}
+
+p span {
+  margin-left: 50px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--primary-color);
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.3em;
+  line-height: 1.5em;
+}
+
+.container {
+  max-width: 640px;
+  margin: 50px auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+}
+.table {
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+}
+form label,
+form input,
+form button {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+form input {
+  font-size: 24px;
+  height: 50px;
+  padding: 0 20px;
+}
+
+form input:focus {
+  outline: 1px solid var(--primary-color);
+}
+
+form button {
+  margin-top: 30px;
+  background: var(--primary-color);
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  height: 50px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background: var(--primary-color-dark);
+}
+
+.p-result, .bad {
+    padding: 10px 20px;
+    background: rgb(166, 188, 133);
+}
+
+.bad {
+    background: rgb(201, 153, 153);
+}
