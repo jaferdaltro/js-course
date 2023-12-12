@@ -1,0 +1,28 @@
+:root {
+    --primary-color:  rgb(116, 202, 140);
+    --secondary-color: #ddd;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: var(--primary-color);
+}
+
+.container { 
+    background: var(--secondary-color);
+    max-width: 640px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.watch {
+    width: 100%;
+    font-size: 3em;
+}
+
+.paused {
+    color: tomato;
+}
+
