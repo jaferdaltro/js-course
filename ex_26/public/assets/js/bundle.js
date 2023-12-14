@@ -27,7 +27,8 @@ var button = document.querySelector('.btn-generate');
   });
 });
 function generate() {
-  return (0,_generators__WEBPACK_IMPORTED_MODULE_0__["default"])(qtCh.value, chkUppercase.checked, chkLowercase.checked, chkNumbers.checked, chkSymbols.checked);
+  var pass = (0,_generators__WEBPACK_IMPORTED_MODULE_0__["default"])(qtCh.value, chkUppercase.checked, chkLowercase.checked, chkNumbers.checked, chkSymbols.checked);
+  return pass || 'Select something';
 }
 
 /***/ }),

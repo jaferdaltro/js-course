@@ -16,11 +16,12 @@ export default () => {
 };
 
 function generate() {
-  return generatePassword(
+  const pass = generatePassword(
     qtCh.value,
     chkUppercase.checked,
     chkLowercase.checked,
     chkNumbers.checked,
     chkSymbols.checked
   );
+  return pass || 'Select something'
 }
